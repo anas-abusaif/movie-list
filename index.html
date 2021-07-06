@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <header><p>My Movie List</p></header>
+  <main>
+    <fieldset>
+    <form id="form">
+      
+      <legend>New movie</legend>
+      <label for="movieName">Name</label>
+      <input type="text" name="movieName" id="movieName">
+      <label for="genre">Image</label>
+      <select name="genre" id="genre">
+      <option value="./img/action.png">action</option>
+      <option value="./img/adventure.png">adventure</option>
+      <option value="./img/animation.png">animation</option>
+      <option value="./img/comedy.png">comedy</option>
+      <option value="./img/detective.png">detective</option>
+      <option value="./img/fantasy.png">fantasy</option>
+      <option value="./img/history.png">history</option>
+      <option value="./img/horror.png">horror</option>
+      <option value="./img/musical.png">musical</option>
+      <option value="./img/pirate.png">pirate</option>
+      <option value="./img/romantic.png">romantic</option>
+      <option value="./img/sci-fi.png">sci-fi</option>
+      <option value="./img/war.png">war</option>
+      <option value="./img/western.png">western</option>
+    </select>
+      <label for="Release">Release</label>
+      <input type="text" name="Release" id="Release">
+      <div>
+        <button id="save">Save</button>
+        <button id="Clear LS">Clear LS</button>
+      </div>
+   
+    </form>
+  </fieldset>
+    <table id="table">
+      <tr>
+        <th>#</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Release</th>
+      </tr>
+    </table>
+  </main>
+  <footer><p>All rights reserved 2021© ASAC</p></footer>
+</body>
+<script src="./javascript/app.js"></script>
+</html>
